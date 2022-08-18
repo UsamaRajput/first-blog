@@ -1,0 +1,294 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+/*
+------------------- NAVIGATION STYLING ---------------------
+*/
+body{
+	background: lightgray;
+}
+
+nav{
+	width: 100%;
+	height: 100px;
+	background-color: #56667A;
+
+}
+nav .logo{
+	width: 18%;
+	float: left;
+}
+nav img{
+	margin: 20px 50px;
+}
+
+.menu{
+	width: 80%;
+	float: right;
+}
+
+.menu ul li{
+	display: inline;
+	margin-left: 10%;
+	padding: 10px;
+	width:10%;
+}
+.menu ul li:hover{
+	background: #007bff;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
+.menu ul li a{
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #E8D50D;
+	line-height: 100px;
+	font-size: 20px;
+	font-weight: bolder;
+	font-weight: 500;
+	
+}
+/*
+------------------- END NAVIGATION STYLING ---------------------
+*/
+/*
+------------------- START BANNER STYLING ---------------------
+*/
+
+header#banner{
+	width: 100%;
+	height: 80vh;
+	background-image: url('../images/bg-masthead.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+header #banner-headings{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+	text-align: center;
+}
+header #banner-headings h1{
+	font-size: 40px;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+}
+header #banner-headings h2{
+	font-size: 30px;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+}
+/*
+--------------------- POST STYLING ---------------------
+*/
+#content-section{
+	width: 100%;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: 30px;
+}
+#post-section{
+	width: 68%;
+	max-width: 70%;
+	float: left;
+}
+#post-section h1 a, #post-section h1{
+	text-decoration: none;
+	font-size: 30px;
+	text-transform: capitalize;
+	color: #232522; 
+}
+#post-section .au-da{
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 90px;
+}
+#post-section span{
+	font-size: 15px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	margin:0 15px;
+	color: #232522;
+}
+#post-section img{
+	width: 100%;
+	height: 500px;
+}
+#post-section post-img{
+
+}
+#post-section .post-con{
+	margin-top: 30px;
+	padding: 10px;
+	font-size: 20px;
+}
+#post-section .full_post_link{
+	color: #007BFF;
+	margin-left: 80%;
+	margin-bottom: 10px;
+	text-align: center;
+}
+/*SIDEBAR STYLING*/
+#sidebar{
+	width: 28%;
+	max-width: 28%;
+	float: right;
+	margin-top: 80px;
+	background: #627890 ;
+}
+#sidebar .sidebar-post img{
+	width: 200px;
+	height: 200px;
+
+}
+#sidebar .sidebar-post h2{
+	text-transform: capitalize;
+	margin-bottom: 30px;
+}
+ a{
+	font-size: 20px;
+	color: #242424;
+	
+}
+#sidebar .sidebar-post h1{
+	font-size: 40px;
+	text-align: center;
+	background: yellow;
+	margin-bottom: 20px;
+}
+#sidebar .sidebar-post h1 a{
+	text-transform: uppercase;
+	color: #007BFF;
+	font-size: 30px;
+	text-align: center;
+}
+	#sidebar .sidebar-post .search-box{
+		display: block;
+		width: 80%;
+		height: 30px;
+		border: 2px solid #007BFF;
+		border-radius: 20px;
+		padding: 20px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+
+	}
+	#sidebar .sidebar-post .search_btn{
+		padding: 10px;
+		width: 90px;
+		color: #E8D50D;
+		font-size: 15px;
+		background-color: #007BFF;
+		border: 2px solid gray;
+		border-radius: 10px;
+		margin-bottom: 10px;
+		cursor: pointer;
+	}
+
+
+/*
+-------------- FOOTER STYLING ------------
+*/
+footer{
+	margin-top: 50px;
+	background: #56667A;
+	padding: 30px 5%;
+}
+footer div{
+	margin: auto 20px;
+	width:21%;
+	float: left;
+}
+footer div h2{
+	font-size: 30px;
+	color: white;
+	font-weight: bolder;
+	border-bottom: 2px solid yellow;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+footer div p{
+	margin-top: 10px;
+	color: gray;
+}
+
+
+
+
+
+/*CONTACT US*/
+.con-box{
+width: 100%;
+height: 100vh;
+position: relative;
+background: #9CA7B9;
+margin-top:30px; 
+}
+.contact{
+	width: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.contact input[type="text"],.contact textarea{
+	width: 100%;
+	margin: 15px auto;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #007cFF;
+	text-indent: 10px;
+}
+
+.contact input[type="text"]{
+	height: 30px;
+}
+.contact textarea{
+	height: 190px;
+	resize: none;
+}
+.contact input{
+	margin: 15px auto;
+	
+}
+.contact p{
+	font-size: 20px;
+	color: #E5D30D;
+}
+.contact button{
+	width: 150px;
+	margin-left: 40%;
+	background: #007BFF;
+	border: none;
+	border: 2px solid #007cFF;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	padding: 7px;
+	color: #E5D30D;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+/*END INSERT POST STYLING FOR ADMIN*/
+
+
+
+
+
+
+#content-section::after,footer::after{
+	content: "";
+	display: block;
+	clear: both;
+}
